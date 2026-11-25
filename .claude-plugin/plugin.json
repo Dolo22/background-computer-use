@@ -1,0 +1,22 @@
+{
+  "name": "background-computer-use",
+  "version": "0.2.0",
+  "description": "Drive macOS apps from your MCP-capable LLM client in the background: click, type, scroll, and inspect accessibility trees without activating apps or moving your cursor. Parity port of the Codex computer-use tool surface plus a small set of app-specific skills.",
+  "author": {
+    "name": "Esperance Mwamba"
+  },
+  "homepage": "https://github.com/Dolo22/background-computer-use",
+  "repository": "https://github.com/Dolo22/background-computer-use",
+  "license": "MIT",
+  "keywords": [
+    "computer-use",
+    "macos",
+    "accessibility",
+    "gui-automation",
+    "background",
+    "safari",
+    "chrome",
+    "electron",
+    "mcp"
+  ]
+}

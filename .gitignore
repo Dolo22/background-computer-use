@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments (provisioned on first run by bin/cua-server)
+.venv/
+venv/
+env/
+.env
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build / dist
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Local MCP-client state. Different clients use different paths; these
+# are the ones common enough to be worth blocklisting globally. Config
+# files that are meant to be shared (project `.mcp.json`, Claude Code's
+# `.claude/settings.json`) stay tracked.
+.claude/settings.local.json
+.claude/projects/
+.claude/logs/
+.claude/worktrees/
+.cursor/mcp.json
+.cursor/rules/local/
+
+# Agent / tooling caches generated outside the workspace get ignored by
+# path, but if any hit the repo root, block them here too.
+agent-tools/
+
+background-computer-use.zip
